@@ -1,0 +1,27 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3891
+
+*gf-user* is a Vim plugin to provide a framwork to extend |gf|.  Though |gf|
+is one of the most useful commands in Vim, it has the following problems:
+
+- The file to be opened is based on the word under the cursor.
+- It's not possible to specify the cursor position for the opened file.
+
+Sometimes you might wish |gf| used more text around the cursor to detect the
+file to be opened and the initial cursor position.  For example,
+
+- While reading output from diff(1), go to the hunk under the cursor.
+- While editing files for an MVC framework, go to the view file corresponding
+  to an action of the controller under the cursor. 
+
+Though it's not hard to implement each extension, it's a bit troublesome to
+synthesize all extensions.  |gf-user| provides a framework for the extensions.
+
+
+Requirements:
+- Vim 7.3 or later
+
+Latest version:
+http://github.com/kana/vim-gf-user
+
+Document in HTML format:
+http://kana.github.com/config/vim/gf-user.html

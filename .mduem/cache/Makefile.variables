@@ -1,0 +1,6 @@
+all_files_in_repos :=          Makefile autoload/gf/user.vim doc/gf-user.txt plugin/gf/user.vim test/basics.expected test/basics.input
+current_branch := master
+origin_name := origin
+origin_uri := /Users/kana/working/vim-gf-user
+repos_name := vim-gf-user
+version := 0.0.0
